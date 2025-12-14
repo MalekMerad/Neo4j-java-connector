@@ -51,7 +51,7 @@ public class Neo4jConnector implements AutoCloseable {
 
         String uri = "bolt://localhost:7687";
         String username = "neo4j";
-        String password = "PASSWORD"-->Your password;
+        String password = "PASSWORD"//Your Password;
 
         try (Neo4jConnector neo4j = new Neo4jConnector(uri, username, password)) {
 
@@ -67,4 +67,5 @@ public class Neo4jConnector implements AutoCloseable {
         }
     }
 }
+
 
